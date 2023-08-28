@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'nib-black';
+    src: url('nib-black.eot');
+    src: url('./fonts/nib-black.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/nib-black.woff2') format('woff2'),
+         url('./fonts/nib-black.woff') format('woff'),
+         url('./fonts/nib-black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

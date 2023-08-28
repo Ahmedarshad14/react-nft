@@ -1,0 +1,20 @@
+.about-hero {
+    
+    background: linear-gradient(270deg,#501c66,#031e58,#e460f6,#0c6ee2,#000000);
+  background-size: 300% 300%;
+  box-shadow : rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  animation: gradient-animation 35s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  
+  }

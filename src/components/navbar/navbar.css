@@ -1,0 +1,36 @@
+.navbar>.container-fluid
+{
+    background-color: transparent!important;
+    margin-top: -10px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-nav {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+.btn-navbar {
+    width: auto;
+    background-color: #2a56ff;
+    color : whitesmoke;
+    border: none;
+    border-radius: 50px;
+
+}
+.btn-navbar:hover {
+    background-color: #081c6d;
+    color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    
+    color: whitesmoke;
+}
+.navbar-nav li {
+    margin-right: 8px;    
+}
